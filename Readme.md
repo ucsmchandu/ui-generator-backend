@@ -624,15 +624,7 @@ NODE_ENV=development         # or production
 
 ## Deployment
 
-### Heroku Deployment
-
-```bash
-heroku create your-app-name
-heroku config:set GEMINI_API_KEY=your_key
-git push heroku main
-```
-
-### Railway/Replit Deployment
+### Render Deployment
 
 1. Connect repository
 2. Set GEMINI_API_KEY environment variable
